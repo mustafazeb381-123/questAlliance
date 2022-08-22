@@ -1,0 +1,6 @@
+module Pods_QuestAlliance {
+  umbrella header "Pods-QuestAlliance-umbrella.h"
+
+  export *
+  module * { export * }
+}
