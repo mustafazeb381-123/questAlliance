@@ -11,16 +11,8 @@ import * as React from 'react';
 import ColorsTheme from './theme/ColorsTheme';
 import SVGICON from './theme/SVGICON';
 import { CurvedBottomBar } from 'react-native-curved-bottom-bar';
+import HomeScreen from './screen/HomeScreen';
 
-// const Tab = createMaterialBottomTabNavigator();
-
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
-    </View>
-  );
-}
 
 function IconLabelView(focused, label, ActiveIcon, DiActiveIcon) {
   return (
@@ -49,34 +41,12 @@ function IconLabelView(focused, label, ActiveIcon, DiActiveIcon) {
 }
 
 
-const _renderIcon = (routeName, selectedTab) => {
-  let icon = ''
-  switch (routeName) {
-    case 'Home':
-      icon = 'Home';
-      break;
-    case 'Calculator':
-      icon = 'cal';
-      break;
-  }
-  return (
-    <>
-      {routeName === selectedTab ?
-        <SVGICON.Home />
-      :
-      <SVGICON.homewhite />}
-    </>
-  );
-};
-
-
 function BottomTab() {
 
   const [active, setActive] = React.useState('Home')
 
 
   const renderTabBar = ({ routeName, selectedTab, navigate }) => {
-
     return (
       <Pressable
         onPress={() => {
@@ -84,16 +54,14 @@ function BottomTab() {
           navigate(routeName)
         }}
         style={{
-          // flex: 1,
           marginTop: routeName == 'Notifications' ? 15 : 0,
           alignItems: 'center',
           justifyContent: 'center',
         }}>
-    
-        {routeName == 'Home' && IconLabelView(routeName == selectedTab, routeName, <SVGICON.Home />,<SVGICON.homewhite />)}
-        {routeName == 'Calculator' && IconLabelView(routeName == selectedTab, routeName, <SVGICON.cal />,<SVGICON.calYellow />)}
-        {routeName == 'Notifications' && IconLabelView(routeName == selectedTab, routeName, <SVGICON.notificationYellow />,<SVGICON.bell />)}
-        {routeName == 'More' && IconLabelView(routeName == selectedTab, routeName, <SVGICON.barYellow />,<SVGICON.barWhite />)}
+        {routeName == 'Home' && IconLabelView(routeName == active, routeName, <SVGICON.Home />, <SVGICON.homewhite />)}
+        {routeName == 'Calculator' && IconLabelView(routeName == active, routeName, <SVGICON.cal />, <SVGICON.calYellow />)}
+        {routeName == 'Notifications' && IconLabelView(routeName == active, routeName, <SVGICON.notificationYellow />, <SVGICON.bell />)}
+        {routeName == 'More' && IconLabelView(routeName == active, routeName, <SVGICON.barYellow />, <SVGICON.barWhite />)}
       </Pressable>
     );
   };
@@ -103,41 +71,57 @@ function BottomTab() {
       style={styles.bottomBar}
       strokeWidth={0}
       height={80}
-      circleWidth={55}
+      circleWidth={0}
+      screenOptions={{
+        headerShown: false
+      }}
       bgColor={ColorsTheme.Primary}
       initialRouteName="Home"
       borderTopLeftRight
       renderCircle={({ selectedTab, navigate }) => (
-        <Animated.View style={[{
-          backgroundColor: selectedTab == active ? ColorsTheme.darkYellow : ColorsTheme.white
-        }, styles.btnCircle]}>
-          {console.log("selectedTab", selectedTab)}
-          <Pressable
-            style={{
-              justifyContent: 'center',
-              padding: 30,
-              borderRadius: 50,
-              backgroundColor: ColorsTheme.yellow,
-              alignItems: 'center'
-            }}
-            onPress={() => {
-              setActive(selectedTab)
-              navigate('CENTER')
-            }
-            }
-          >
-            <SVGICON.service style={{ alignSelf: 'center', top: 3 }} />
-          </Pressable>
-        </Animated.View>
+        <View style={{ width: 100, }}>
+          <View style={{ backgroundColor: ColorsTheme.Primary }}>
+            <View style={[{
+              marginTop: -33,
+              backgroundColor: selectedTab == active ?
+                ColorsTheme.darkYellow :
+                ColorsTheme.white
+            }, styles.btnCircle
+            ]}>
+              <Pressable
+                style={{
+                  justifyContent: 'center',
+                  margin: 10,
+                  height: 60,
+                  borderRadius: 50,
+                  backgroundColor: ColorsTheme.yellow,
+                  alignItems: 'center'
+                }}
+                onPress={() => {
+                  setActive(selectedTab)
+                  navigate('CENTER')
+                }}
+              >
+                <SVGICON.service style={{ alignSelf: 'center', top: 3 }} />
+              </Pressable>
+            </View>
+            <Text
+              style={{
+                backgroundColor: ColorsTheme.Primary,
+                height: 20,
+                color: selectedTab == active ? ColorsTheme.orange : ColorsTheme.white,
+                width: '100%',
+                textAlign: 'center',
+              }}>Service</Text>
+          </View>
+        </View>
       )}
       tabBar={renderTabBar}
     >
       <CurvedBottomBar.Screen
         name="Home"
         position="LEFT"
-        component={() => (
-          <View style={{ backgroundColor: '#FFEBCD', flex: 1 }} />
-        )}
+        component={HomeScreen}
       />
       <CurvedBottomBar.Screen
         name="Calculator"
@@ -148,7 +132,7 @@ function BottomTab() {
       />
       <CurvedBottomBar.Screen
         name="Service"
-        component={({ navigate }) => (
+        component={() => (
           <View style={{ backgroundColor: '#FFEBCD', flex: 1 }} />
         )}
         position="CENTER"
@@ -184,13 +168,16 @@ export const styles = StyleSheet.create({
   },
   bottomBar: {},
   btnCircle: {
-    width: 100,
-    height: 100,
-    borderRadius: 100,
+    width: 80,
+    height: 80,
+    borderRadius: 80,
     alignSelf: 'center',
     justifyContent: 'center',
+    // position:'absolute',
+    top: 0,
     // backgroundColor: ColorsTheme.white,
-    padding: 10,
+    // marginTop: -20,
+    // padding: 10,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -199,7 +186,7 @@ export const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 3,
     elevation: 1,
-    bottom: 45,
+    bottom: 10,
   },
   imgCircle: {
     width: 30,

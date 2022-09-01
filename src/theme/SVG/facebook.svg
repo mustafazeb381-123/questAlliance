@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155" height="48" viewBox="0 0 155 48">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.913" x2="0.994" y2="0.058" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#298fff"/>
+      <stop offset="1" stop-color="#0778f5"/>
+    </linearGradient>
+  </defs>
+  <g id="sign_in_with_facebook" data-name="sign in with facebook" transform="translate(-196 -623)">
+    <rect id="background" width="155" height="48" rx="6" transform="translate(196 623)" fill="url(#linear-gradient)"/>
+    <g id="Frame_3" data-name="Frame 3" transform="translate(226 635)">
+      <g id="Group_5" data-name="Group 5">
+        <g id="Group_177" data-name="Group 177">
+          <g id="Component_Icon_Facebook" data-name="Component/Icon/Facebook">
+            <rect id="Rectangle_184" data-name="Rectangle 184" width="24" height="24" fill="#c4c4c4" opacity="0"/>
+            <path id="Shape" d="M9,0H6.545A4.046,4.046,0,0,0,2.455,4V6.4H0V9.6H2.455V16H5.727V9.6H8.182L9,6.4H5.727V4a.809.809,0,0,1,.818-.8H9Z" transform="translate(7 4)" fill="#fff"/>
+          </g>
+          <text id="Facebook" transform="translate(63.5 17)" fill="#fff" font-size="14" font-family="OpenSans, Open Sans"><tspan x="-31.186" y="0">Facebook</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
