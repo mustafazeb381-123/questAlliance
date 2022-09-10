@@ -19,6 +19,7 @@ import Google from './SVG/Google'
 import facebook from './SVG/facebook'
 import or from './SVG/or'
 import QuestAllianceLogoLarge from './SVG/QuestAllianceLogoLarge'
+import success from './SVG/success'
 
 const SVGICON = {
     Comparision : Comparision,
@@ -43,7 +44,8 @@ const SVGICON = {
    QuestAllianceLogoLarge : QuestAllianceLogoLarge,
    Google : Google,
    facebook : facebook,
-   or :or
+   or :or,
+   success :success
 }
 
 

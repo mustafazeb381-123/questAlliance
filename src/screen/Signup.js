@@ -13,13 +13,15 @@ import SVGICON from "../theme/SVGICON";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import fonts from "../theme/fonts";
 
-function Login(props) {
+function Signup(props) {
   const [value, setValue] = React.useState("one");
   const [show, setShow] = React.useState(false);
 
   return (
     <ScrollView style={{ flex: 1, padding: 10, backgroundColor: "white" }}>
       <SVGICON.QuestAllianceLogoLarge style={{ alignSelf: "center" }} />
+
+      <Text style={styles.labelheader}>New User Sign Up</Text>
 
       <Radio.Group
         name="myRadioGroup"
@@ -88,53 +90,34 @@ function Login(props) {
         //   }
       />
 
-      <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
-        <View style={{ alignSelf: "center", flexDirection: "row" }}>
-          <Checkbox
-            isChecked={false}
-            colorScheme="green"
-            style={{ alignSelf: "center" }}
-          />
-          <Text
-            style={{
-              fontFamily: fonts.light,
-              color: ColorsTheme.grey,
-              fontSize: 18,
-              paddingLeft: 15,
-              marginTop: -5,
-            }}
-          >
-            Remember me
-          </Text>
-        </View>
-        <Pressable
-          onPress={() => {
-            props.navigation.navigate("ForgotPassword");
-          }}
-        >
-          <Text
-            style={{
-              color: ColorsTheme.Primary,
-              textAlign: "right",
-              paddingVertical: 30,
-              fontSize: 16,
-              fontFamily: fonts.regular,
-            }}
-          >
-            Forgot password?
-          </Text>
-        </Pressable>
-      </View>
+      <Input
+        p={4}
+        borderRadius={5}
+        placeholderTextColor={ColorsTheme.grey}
+        marginTop={3}
+        placeholder="Enter your password"
+        fontSize={16}
+        _focus={{
+          borderColor: ColorsTheme.Primary,
+          backgroundColor: "white",
+        }}
+        type={show ? "text" : "password"}
+      />
 
-      <Pressable style={styles.btn}>
-        <Text style={styles.btntitle}>Login</Text>
+      <Pressable
+       onPress={() => {
+        props.navigation.navigate('SignupSuccess');
+      }}
+       style={styles.btn}>
+        <Text style={styles.btntitle}>Sign Up</Text>
       </Pressable>
-      <SVGICON.or style={{ alignSelf: "center", marginTop: 30 }} />
+      <SVGICON.or style={{ alignSelf: "center", marginTop: 40 }} />
 
       <View
         style={{
           flexDirection: "row",
           margin: 20,
+          marginTop :30,
           justifyContent: "space-between",
         }}
       >
@@ -143,6 +126,7 @@ function Login(props) {
       </View>
 
       <Text
+       
         style={{
           color: "black",
           fontFamily: fonts.regular,
@@ -150,34 +134,18 @@ function Login(props) {
           alignSelf: "center",
         }}
       >
-        Don’t Have an Account?
-        <Text style={{ color: ColorsTheme.Primary }}
-        onPress={() => {
-          props.navigation.navigate('Signup')
-        }}> Signup</Text>
-      </Text>
-
-      <Pressable
-        onPress={() => {
-          props.navigation.pop();
-        }}
-      >
+        Have an Account?
         <Text
-          style={{
-            color: ColorsTheme.Primary,
-            alignSelf: "center",
-            padding: 30,
-            fontSize: 16,
+         onPress={() => {
+            props.navigation.pop();
           }}
-        >
-          Back to homepage
-        </Text>
-      </Pressable>
+           style={{ color: ColorsTheme.Primary }}> Login</Text>
+      </Text>
     </ScrollView>
   );
 }
 
-export default Login;
+export default Signup;
 
 const styles = StyleSheet.create({
   btn: {
@@ -192,5 +160,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     paddingHorizontal: 30,
     alignSelf: "center",
+  },
+  labelheader: {
+    fontSize: 18,
+    alignSelf: "center",
+    fontFamily: fonts.bold,
+    marginTop: 10,
   },
 });
