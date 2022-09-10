@@ -34,6 +34,7 @@ const SVGICON = {
    service : service,
    QuestAllianceLogo : QuestAllianceLogo,
    HomeBanner : require('./Images/HomeBanner.png'),
+   GoogleIcon : require('./Images/Google.png'),
    loanProvider : loanProvider,
    update : update,
    Approval : Approval,

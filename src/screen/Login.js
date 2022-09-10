@@ -90,7 +90,7 @@ function Login(props) {
               color: ColorsTheme.grey,
               fontSize: 18,
               paddingLeft :15,
-              alignSelf:'center'
+              marginTop :-5
             }}
           >
             Remember me
@@ -121,7 +121,7 @@ function Login(props) {
           justifyContent: "space-between",
         }}
       >
-        <SVGICON.facebook />
+        <Image source={SVGICON.GoogleIcon} />
         <SVGICON.facebook />
       </View>
 
