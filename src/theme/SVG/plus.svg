@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <filter id="Rectangle_40" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_135" data-name="Group 135" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_40)">
+      <rect id="Rectangle_40-2" data-name="Rectangle 40" width="20" height="20" rx="5" transform="translate(9 6)" fill="#2662b0"/>
+    </g>
+    <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M12.4,7.494H8.1V3.2a.954.954,0,0,0-.954-.954H6.2a.954.954,0,0,0-.954.954V7.494H.954A.954.954,0,0,0,0,8.448V9.4a.954.954,0,0,0,.954.954H5.244v4.291A.954.954,0,0,0,6.2,15.6h.954a.954.954,0,0,0,.954-.954V10.355H12.4a.954.954,0,0,0,.954-.954V8.448A.954.954,0,0,0,12.4,7.494Z" transform="translate(3.325 1.075)" fill="#fdfdfd"/>
+  </g>
+</svg>

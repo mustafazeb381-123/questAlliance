@@ -17,9 +17,11 @@ function Button(props) {
         props.onPress();
       }}
       style={{
-        borderRadius: 10,
+        borderRadius: 5,
         backgroundColor: ColorsTheme.Primary,
-        marginHorizontal: props?.marginHorizontal ? props?.marginHorizontal : 30
+        marginHorizontal: props?.marginHorizontal ? 
+        props?.marginHorizontal : 30,
+        marginTop : props?.marginTop ? props?.marginTop : 0
       }}
     >
       <Text
@@ -28,7 +30,7 @@ function Button(props) {
           paddingVertical: 10,
           alignSelf: "center",
           color: "white",
-          fontSize: 18,
+          fontSize: 16,
           fontFamily: fonts.regular,
         }}
       >

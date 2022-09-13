@@ -20,8 +20,15 @@ import facebook from './SVG/facebook'
 import or from './SVG/or'
 import QuestAllianceLogoLarge from './SVG/QuestAllianceLogoLarge'
 import success from './SVG/success'
+import slider from './SVG/slider'
+import plus from './SVG/plus'
+import square from './SVG/square'
+import minus from './SVG/minus'
 
 const SVGICON = {
+    minus : minus,
+    square :square,
+    slider : slider,
     Comparision : Comparision,
     Services : Services,
     Home : Home,
@@ -45,7 +52,8 @@ const SVGICON = {
    Google : Google,
    facebook : facebook,
    or :or,
-   success :success
+   success :success,
+   plus :plus
 }
 
 
