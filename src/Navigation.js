@@ -9,6 +9,7 @@ import ForgotPassword from "./screen/FogotPassword";
 import ForgotSuccess from "./screen/ForgotSuccess";
 import Signup from "./screen/Signup";
 import SignupSuccess from "./screen/SignupSuccess";
+import LoanCalculationResult from "./screen/LoanCalculationResult";
 
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +29,7 @@ export default function Navigation() {
             <Stack.Screen name="SignupSuccess" component={SignupSuccess} />
             <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
             <Stack.Screen name="ForgotSuccess" component={ForgotSuccess} />
+            <Stack.Screen name="LoanCalculationResult" component={LoanCalculationResult} />
           </Stack.Navigator>
           {/* Rest of your app code */}
         </NavigationContainer>

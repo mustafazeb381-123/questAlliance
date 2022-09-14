@@ -12,6 +12,7 @@ import SVGICON from "./theme/SVGICON";
 import { CurvedBottomBar } from "react-native-curved-bottom-bar";
 import HomeScreen from "./screen/HomeScreen";
 import LoanCalculator from "./screen/LoanCalculator";
+import ServiceScreen from "./screen/ServiceScreen";
 
 function IconLabelView(focused, label, ActiveIcon, DiActiveIcon) {
   return (
@@ -127,7 +128,7 @@ function BottomTab() {
                 }}
                 onPress={() => {
                   setActive(selectedTab);
-                  navigate("CENTER");
+                  navigate("Service");
                 }}
               >
                 <SVGICON.service style={{ alignSelf: "center", top: 3 }} />
@@ -164,9 +165,7 @@ function BottomTab() {
       />
       <CurvedBottomBar.Screen
         name="Service"
-        component={() => (
-          <View style={{ backgroundColor: "#FFEBCD", flex: 1 }} />
-        )}
+        component={ServiceScreen}
         position="CENTER"
       />
       <CurvedBottomBar.Screen

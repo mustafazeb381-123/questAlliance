@@ -24,8 +24,20 @@ import slider from './SVG/slider'
 import plus from './SVG/plus'
 import square from './SVG/square'
 import minus from './SVG/minus'
+import back from './SVG/back'
+import PersonalLoan from './SVG/PersonalLoan'
+import mortgage from './SVG/mortgage'
+import commercial from './SVG/commercial'
+import business from './SVG/business'
+import finance from './SVG/finance'
 
 const SVGICON = {
+    PersonalLoan :PersonalLoan,
+    finance :finance,
+    business :business,
+    commercial :commercial,
+    mortgage:mortgage,
+    back : back,
     minus : minus,
     square :square,
     slider : slider,

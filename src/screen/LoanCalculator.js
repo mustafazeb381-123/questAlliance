@@ -464,10 +464,11 @@ function LoanCalculator(props) {
         {renderYourLoan()}
 
         {renderAddLoan()}
+
         <Button
           title={"Calculate"}
           onPress={() => {
-            props.navigation.popToTop();
+            props.navigation.navigate('LoanCalculationResult');
           }}
           marginTop={20}
           marginHorizontal={1}
