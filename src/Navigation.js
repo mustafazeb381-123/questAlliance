@@ -31,7 +31,7 @@ import FinancialRequest from "./screen/FinancialRequest";
 import ApplicantsConfirmation from "./screen/ApplicantsConfirmation";
 import Summary from "./screen/Summary";
 import MorganLoanEnd from "./screen/MorganLoanEnd";
-// import DrawerNavigation from "./DrawerNavigation";
+import DrawerNavigation from "./DrawerNavigation";
 import PersonalProfileEdit from "./screen/PersonalProfileEdit";
 import ApplicationStatus from "./screen/ApplicationStatus";
 import PersonalAccountHeader from "./component/PersonalAccountHeader";
@@ -147,10 +147,10 @@ export default function Navigation() {
               name="MorganLoanEnd"
               component={MorganLoanEnd}
             />
-            {/* <Stack.Screen
+            <Stack.Screen
               name="DrawerNavigation"
               component={DrawerNavigation}
-            /> */}
+            />
 
             <Stack.Screen name="PersonalProfileEdit" component={PersonalProfileEdit} />
             <Stack.Screen name="ApplicationStatus" component={ApplicationStatus} />
