@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
-import { View, Text, ScrollView, StyleSheet, FlatList } from "react-native";
+import {
+  View,
+  Text,
+  ScrollView,
+  StyleSheet,
+  FlatList,
+  Pressable,
+} from "react-native";
 import Header from "../component/Header";
 import ColorsTheme from "../theme/ColorsTheme";
 import fonts from "../theme/fonts";
@@ -41,23 +48,38 @@ function ServiceScreen(props) {
           props.navigation.pop();
         }}
       />
-      
-        <Text style={styles.loanTap}>SERVICES</Text>
 
-        <FlatList
-          data={DATA}
-          numColumns={2}
-          style={{marginHorizontal :10,marginBottom :100}}
-          showsVerticalScrollIndicator={false}
-          renderItem={({ item }) => {
-            return (
-              <View style={styles.card}>
+      <Text style={styles.loanTap}>SERVICES</Text>
+
+      <FlatList
+        data={DATA}
+        numColumns={2}
+        style={{ marginHorizontal: 10, marginBottom: 100 }}
+        showsVerticalScrollIndicator={false}
+        renderItem={({ item, index }) => {
+          return (
+            <Pressable
+              style={styles.card}
+              onPress={() => {
+                index == 1
+                  ? props.navigation.navigate("MortgageLoan")
+                  : index == 2
+                  ? props.navigation.navigate("CommercialLoan")
+                  : (index = 3
+                      ? props.navigation.navigate("BusinessLoan")
+                      : (index = 4
+                          ? props.navigation.navigate("AutoLoan")
+                          : null));
+              }}
+            >
+              <View>
                 {item.icon}
                 <Text style={styles.titleLabel}>{item.title}</Text>
               </View>
-            );
-          }}
-        />
+            </Pressable>
+          );
+        }}
+      />
     </View>
   );
 }

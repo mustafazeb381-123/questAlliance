@@ -13,6 +13,7 @@ import { CurvedBottomBar } from "react-native-curved-bottom-bar";
 import HomeScreen from "./screen/HomeScreen";
 import LoanCalculator from "./screen/LoanCalculator";
 import ServiceScreen from "./screen/ServiceScreen";
+import Screen34 from "./screen/Screen34";
 
 function IconLabelView(focused, label, ActiveIcon, DiActiveIcon) {
   return (
@@ -171,7 +172,7 @@ function BottomTab() {
       <CurvedBottomBar.Screen
         name="Notifications"
         component={() => (
-          <View style={{ backgroundColor: "#FFEBCD", flex: 1 }} />
+          <Screen34 />
         )}
         position="RIGHT"
       />
