@@ -139,13 +139,13 @@ import {
     },
     blacktitle: {
       color: 'black',
-      fontSize: 28,
+      fontSize: 26,
       marginTop: 10,
       fontFamily: fonts.bold,
     },
     blacksubTitle: {
       color: 'black',
-      fontSize: 16,
+      fontSize: 14,
       marginTop: 15,
       fontFamily: fonts.regular,
     },

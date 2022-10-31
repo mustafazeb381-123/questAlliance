@@ -65,11 +65,11 @@ function ServiceScreen(props) {
                   ? props.navigation.navigate("MortgageLoan")
                   : index == 2
                   ? props.navigation.navigate("CommercialLoan")
-                  : (index = 3
+                  : index == 3
                       ? props.navigation.navigate("BusinessLoan")
-                      : (index = 4
-                          ? props.navigation.navigate("AutoLoan")
-                          : null));
+                      : index == 4
+                          ? props.navigation.navigate("AutoFinancing")
+                          : null;
               }}
             >
               <View>

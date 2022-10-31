@@ -14,6 +14,9 @@ import HomeScreen from "./screen/HomeScreen";
 import LoanCalculator from "./screen/LoanCalculator";
 import ServiceScreen from "./screen/ServiceScreen";
 import Screen34 from "./screen/Screen34";
+import More from './screen/More'
+
+import Notification from "./screen/Notification";
 
 function IconLabelView(focused, label, ActiveIcon, DiActiveIcon) {
   return (
@@ -171,16 +174,12 @@ function BottomTab() {
       />
       <CurvedBottomBar.Screen
         name="Notifications"
-        component={() => (
-          <Screen34 />
-        )}
+        component={Notification}
         position="RIGHT"
       />
       <CurvedBottomBar.Screen
         name="More"
-        component={() => (
-          <View style={{ backgroundColor: "#FFEBCD", flex: 1 }} />
-        )}
+        component={More}
         position="RIGHT"
       />
     </CurvedBottomBar.Navigator>

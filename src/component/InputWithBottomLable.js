@@ -11,8 +11,8 @@ const InputWithBottomLable = ({ title, hint }) => {
             <View style={styles.marginall}>
 
             </View>
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                <View style={{ width: '70%' }}><Input
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between' , alignItems:'flex-end'}}>
+                <View style={{ width: '70%', }}><Input
                     w={{
                         base: "100%",
                         md: "25%",

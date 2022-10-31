@@ -101,7 +101,7 @@ function CommercialApplicationForm(props) {
 <Pressable
             style={styles.btn}
             onPress={() => {
-              props.navigation.navigate('EmploymentForm');
+              props.navigation.navigate('SubmitApplication');
             }}
           >
             <Text style={styles.btntitle}> {'SEND MESSAGE'}</Text>

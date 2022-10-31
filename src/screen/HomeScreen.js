@@ -14,9 +14,12 @@ import SVGICON from "../theme/SVGICON";
 import Header from "../component/Header";
 import fonts from "../theme/fonts";
 import Button from "../component/Button";
+import { useNavigation } from "@react-navigation/native";
 // const Tab = createMaterialBottomTabNavigator();
 
 function HomeScreen(props) {
+
+  const navigation = useNavigation()
   return (
     <View style={{ flex: 1 }}>
       <Header
@@ -54,7 +57,7 @@ function HomeScreen(props) {
           through the interest rate cycle-based approach effectively.
         </Text>
 
-        <Pressable style={styles.btn}>
+        <Pressable style={styles.btn} onPress={() => navigation.navigate("JointApplicationSenario")} >
           <Text style={styles.btntitle}>LOAN CALCULATOR</Text>
         </Pressable>
 

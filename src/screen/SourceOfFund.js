@@ -111,7 +111,7 @@ function SourceOfFund(props) {
             <Pressable
               style={styles.btn}
               onPress={() => {
-                props.navigation.navigate('SourceOfFund');
+                props.navigation.navigate('FinancialRequest');
               }}
             >
               <Text style={styles.btntitle}> {"CONTINUE"}</Text>
