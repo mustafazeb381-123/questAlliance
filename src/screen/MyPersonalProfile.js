@@ -7,6 +7,7 @@ import { ScrollView } from 'react-native-gesture-handler'
 import signature from '../theme/Images/signature.png'
 import { useNavigation } from '@react-navigation/native'
 import PersonalAccountHeader from '../component/PersonalAccountHeader'
+import pic from '../theme/Images/pic.jpg'
 
 const MyPersonalProfile = () => {
 
@@ -21,7 +22,7 @@ const MyPersonalProfile = () => {
               <Text style={{fontFamily:fonts.semibold, fontSize:26, color:'#2662b0'}}>MY PROFILE</Text>
           </View>
           <View style={styles.uploadPicView }>
-              <Image style={{ height: 150, width: 150 , borderRadius:100}} source={uploadpic} />
+              <Image style={{ height: 150, width: 150 , borderRadius:100}} source={pic} />
               
                   <View style={{ justifyContent: 'center', alignItems: 'center', width: 38, heighth: 38 }} >
                       <View style={{ position: 'relative', bottom: 40, left: 60, height:38, width:38, backgroundColor:'#2662b0' , justifyContent:'center' , alignItems:'center', borderRadius:45}}>

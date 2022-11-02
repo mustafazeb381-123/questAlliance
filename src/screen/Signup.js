@@ -7,15 +7,20 @@ import {
   StyleSheet,
   Text,
   Pressable,
+  Touchable,
 } from "react-native";
 import ColorsTheme from "../theme/ColorsTheme";
 import SVGICON from "../theme/SVGICON";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import fonts from "../theme/fonts";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 function Signup(props) {
   const [value, setValue] = React.useState("one");
   const [show, setShow] = React.useState(false);
+  
+
+  // const [check, setCheck] = React.useState("");
 
   return (
     <ScrollView style={{ flex: 1, padding: 10, backgroundColor: "white" }}>
@@ -37,17 +42,24 @@ function Signup(props) {
         }}
         fontStyle={{ fontFamily: fonts.regular }}
       >
+     
         <Radio
           fontFamily={fonts.regular}
           color={ColorsTheme.Primary}
-          value="1"
+          value="one"
+         
           my={1}
         >
           Personal Account
-        </Radio>
-        <Radio color={ColorsTheme.Primary} value="2" my={1}>
+          </Radio>
+      
+        <Radio color={ColorsTheme.Primary}
+          value="two"
+         
+          my={1}>
           Corporate Account
-        </Radio>
+          </Radio>
+       
       </Radio.Group>
 
       <Input
@@ -103,14 +115,32 @@ function Signup(props) {
         }}
         type={show ? "text" : "password"}
       />
-
+      {
+        value == "one" &&
+      <View>
       <Pressable
        onPress={() => {
         props.navigation.navigate('SignupSuccess');
       }}
        style={styles.btn}>
         <Text style={styles.btntitle}>Sign Up</Text>
-      </Pressable>
+        </Pressable>
+      </View>
+      }
+
+      {
+       value == "two" &&
+        <View>
+        <Pressable
+          onPress={() => {
+            props.navigation.navigate('CorporateSignupSuccess');
+          }}
+          style={styles.btn}>
+          <Text style={styles.btntitle}>Sign Up</Text>
+            </Pressable>
+            
+          </View>
+      }
       <SVGICON.or style={{ alignSelf: "center", marginTop: 40 }} />
 
       <View

@@ -43,7 +43,7 @@ const ResetPersonalAccount = () => {
             </View>
 
             <View style={{ width: '100%', justifyContent: 'center', alignItems: 'center', marginTop: 55 }}>
-                <TouchableOpacity onPress={() => { navigation.navigate("ResetPersonalAccountOne") }} style={{ width: 327, height: 40, justifyContent: 'center', alignItems: 'center', backgroundColor: '#2662b0', borderRadius: 10 }}>
+                <TouchableOpacity  style={{ width: 327, height: 40, justifyContent: 'center', alignItems: 'center', backgroundColor: '#2662b0', borderRadius: 10 }}>
                     <Text style={{ color: 'white' }}>
                         Reset
                     </Text>

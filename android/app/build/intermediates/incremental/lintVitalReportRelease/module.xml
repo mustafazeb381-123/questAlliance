@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app"
+    name=":app"
+    type="APP"
+    maven="QuestAlliance:app:"
+    gradle="7.1.1"
+    buildFolder="build"
+    bootClassPath="/home/mustafazeb/Android/Sdk/platforms/android-31/android.jar:/home/mustafazeb/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

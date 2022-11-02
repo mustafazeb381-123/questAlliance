@@ -64,14 +64,14 @@ const More = () => {
           </View>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={()=> {navigation.navigate("CorporateAccountLogin")}}>
+        <TouchableOpacity >
           <View style={{ width: '100%', flexDirection: 'row', paddingHorizontal: 20, marginTop: 20, alignItems: 'center' }}>
 
             {/* <Image source={contactus} style={{ height: 14, width: 14 }} /> */}
 
             <AntDesign name="setting" size={14}  color="white" />
 
-            <Text style={{ color: 'white', fontFamily: fonts.semibold, fontSize: 15, paddingStart: 20 }}>Setting</Text>
+            <Text style={{ color: 'white', fontFamily:fonts.semibold, fontSize: 15, paddingStart: 20 }}>Setting</Text>
 
           </View>
         </TouchableOpacity>
@@ -84,7 +84,7 @@ const More = () => {
 
           <AntDesign name="filetext1" color="white" size={14}  />
 
-          <Text style={{ color: 'white', fontFamily: fonts.semibold, fontSize: 15, paddingStart: 20 }}>Terms and Condition</Text>
+          <Text style={{ color: 'white', fontFamily:fonts.semibold, fontSize: 15, paddingStart: 20 }}>Terms and Condition</Text>
 
           </View>
         </TouchableOpacity>
@@ -113,28 +113,7 @@ const More = () => {
           </View>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => { navigation.navigate("SetupCompanyProfile") }}>
-
-          <View style={{ width: '100%', flexDirection: 'row', paddingHorizontal: 20, marginTop: 20, alignItems: 'center' }}>
-
-            <Image source={logout} />
-
-            <Text style={{ color: 'white', fontFamily: fonts.semibold, fontSize: 15, paddingStart: 20 }}>SetUp Company profile</Text>
-
-          </View>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress={() => { navigation.navigate("AddSwitchCompany") }}>
-
-          <View style={{ width: '100%', flexDirection: 'row', paddingHorizontal: 20, marginTop: 20, alignItems: 'center' }}>
-
-            <Image source={logout} />
-
-            <Text style={{ color: 'white', fontFamily: fonts.semibold, fontSize: 15, paddingStart: 20 }}>Add/Switch Company</Text>
-
-          </View>
-        </TouchableOpacity>
-
+       
 
 
         

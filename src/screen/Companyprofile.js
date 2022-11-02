@@ -46,7 +46,7 @@ import ocbc from "../theme/Images/ocbc.png";
 import { useNavigation } from "@react-navigation/native";
 import MoreHeader from "../component/MoreHeader";
 import PersonalAccountHeader from "../component/PersonalAccountHeader";
-import uploadpic from "../theme/Images/uploadpic.png";
+import pic from "../theme/Images/pic.jpg";
 import Feather from "react-native-vector-icons/Feather";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
@@ -459,7 +459,7 @@ const Companyprofile = () => {
                   <View style={styles.uploadPicView}>
                     <Image
                       style={{ height: 150, width: 150, borderRadius: 100 }}
-                      source={uploadpic}
+                      source={pic}
                     />
 
                     <View
@@ -979,7 +979,7 @@ const Companyprofile = () => {
                   <View style={styles.uploadPicView}>
                     <Image
                       style={{ height: 150, width: 150, borderRadius: 100 }}
-                      source={uploadpic}
+                      source={pic}
                     />
 
                     <View

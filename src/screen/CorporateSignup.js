@@ -24,6 +24,12 @@ const CorporateSignup = () => {
             <ScrollView>
                 <CorporateAccountHeader />
 
+                <View style={{width:'100%', justifyContent:'center', alignItems:'center',  }}>
+                    <Text style={{color:'black', fontFamily:fonts.bold, fontSize:16}}>
+                        New User Sign Up
+                    </Text>
+                </View>
+
                 <View style={styles.radioButton}>
 
                     <Radio.Group style={{ flexDirection: 'row', width: '100%', justifyContent: 'space-between', paddingHorizontal: 20, alignItems: 'center' }} name="myRadioGroup" accessibilityLabel="favorite number" value={value} onChange={nextValue => {
@@ -62,31 +68,12 @@ const CorporateSignup = () => {
                     </Box>
                 </View>
 
-                <View style={styles.remembarView}>
-                    <View style={{ flexDirection: 'row', width: '50%', }}>
-                        <HStack >
-                            <Checkbox shadow={2} value="test" accessibilityLabel="This is a dummy checkbox" >
-                                Remember me
-                            </Checkbox>
-                        </HStack>
-                    </View>
-
-                    <View>
-                        <TouchableOpacity onPress={() => { navigation.navigate("") }}>
-
-
-                            <Text style={{ color: '#2662b0', fontFamily: fonts.regular, fontSize: 14 }}>
-                                ForgotPassword
-                            </Text>
-                        </TouchableOpacity>
-                    </View>
-
-                </View>
+              
 
                 <View style={{ width: '100%', justifyContent: 'center', alignItems: 'center', paddingHorizontal: 20, marginTop: 20, }}>
                     <TouchableOpacity onPress={()=> {navigation.navigate("CorporateSignupSuccess")}} style={{ justifyContent: 'center', alignItems: 'center', backgroundColor: '#2662b0', width: '100%', height: 52, borderRadius: 10 }}>
                         <Text style={{ color: 'white', fontFamily: fonts.regular, fontSize: 16 }}>
-                           Signup
+                           Sign Up
                         </Text>
 
                     </TouchableOpacity>

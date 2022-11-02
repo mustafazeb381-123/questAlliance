@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_flask.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_flask.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_mortagebackgroung.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_mortagebackgroung.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_uploadpic.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_uploadpic.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_contactusbackgroundimage.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_contactusbackgroundimage.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_logout.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_logout.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable_rn_edit_text_material.xml.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_contactus.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_contactus.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_v1.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_v1.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_payslip.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_payslip.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_google.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_google.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_ocbc.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_ocbc.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_pic.jpg.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_pic.jpg"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_insurance.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_insurance.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_uob.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_uob.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_questalliancelo.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_questalliancelo.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_homebanner.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_homebanner.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_path107.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_path107.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_dbs.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_dbs.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnative_libraries_newappscreen_components_logo.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_personalpic.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_personalpic.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_cpf.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_cpf.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_v2.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_v2.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_signature.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_signature.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_theme_images_qalogo.png.flat",
+        "source": "/media/mustafazeb/C8180BD5180BC184/Books and tutorials/Projects/questalliance/android/app/build/generated/res/react/release/drawable-mdpi/src_theme_images_qalogo.png"
+    }
+]
