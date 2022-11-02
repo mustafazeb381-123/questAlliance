@@ -19,7 +19,7 @@ import Header from '../component/Header';
 import fonts from '../theme/fonts';
 import CommonTextInput from '../component/CommonTextInput';
 import { useNavigation } from '@react-navigation/native';
-import { NativeBaseProvider, Divider, Radio } from 'native-base';
+import { NativeBaseProvider, Divider, Radio, Box, Input } from 'native-base';
 import signature from '../theme/Images/signature.png'
 import Ionicons from 'react-native-vector-icons/Ionicons'
 import AntDesign from 'react-native-vector-icons/AntDesign'
@@ -35,6 +35,7 @@ const Summary = (props) => {
     const navigation = useNavigation();
 
     const [value, setValue] = React.useState("one");
+    const [check, setCheck] = React.useState("no-check")
 
     const lineDraw = (color) => {
         return (
@@ -499,12 +500,12 @@ const Summary = (props) => {
                       setValue(nextValue);
                   }}>
                       <View style={{width:"50%", flexDirection:'row', alignItems:'center'}}>
-                      <Radio value="one"    >
+                      <Radio value="one"  onPress={()=> setCheck("no-check")}   >
                           No
                           </Radio>
                       </View>
                       <View style={{width:'50%', flexDirection:'row', alignItems:'center'}}>
-                      <Radio value="two"  >
+                      <Radio value="two" onPress={()=> setCheck("yes-check")}  >
                           Yes
                           </Radio>
                       </View>
@@ -518,6 +519,34 @@ const Summary = (props) => {
                       Joint Applicant's email  (user with registered account will be notified to fill up their application, those with no account will be prompted to sign up for one)
                   </Text>
               </View>
+
+              {
+                  check == "no-check" &&
+            
+
+              <View style={{width:'100%', flexDirection:'row', justifyContent:'space-between', alignItems:'center'}}>
+                  
+              </View>
+                  
+              }
+
+              {
+                  check == "yes-check" && 
+                  <View style={{ width: '100%', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal:20, marginVertical:10 }}>
+
+                          
+                          <Text style={{ fontFamily: fonts.regular, fontSize: 10, }}>Director 1</Text>
+                          <Box alignItems="center" w="156">
+                              <Input mx="3" placeholder="Input" w="100%" />
+                          </Box>
+
+                          <View style={{flexDirection:'row', alignItems
+                        :'center'}}>
+                              <AntDesign name="check" size={23} color="#00c213" />
+                              <Text style={{ color:'#00c213', fontFamily:fonts.regular, fontSize:10, }}>Account exist</Text>
+                          </View>
+                  </View>
+              }
 
 
               <View style={{width:'100%', flexDirection:'row', alignItems:'center', paddingHorizontal:20, }}>

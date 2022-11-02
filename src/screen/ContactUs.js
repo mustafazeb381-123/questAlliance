@@ -64,14 +64,14 @@ const ContactUs = () => {
           <View style={{width:'100%'}}>
                   <View style={{ width: '100%', paddingHorizontal: 20, marginTop: 20 }}>
                       
-                      <Text style={{paddingVertical:10, fontFamily:fonts.regular, color:'black', fontSize:14}}>Name</Text>
+                      <Text style={{paddingVertical:10, fontFamily:fonts.bold, color:'black', fontSize:14}}>Name</Text>
                       <Input backgroundColor="white"   />
                       
                   </View>
                   
                   <View style={{ width: '100%', paddingHorizontal: 20, marginTop: 20 }}>
 
-                      <Text style={{ paddingVertical: 10, fontFamily: fonts.regular, color: 'black', fontSize: 14 }}>Email</Text>
+                      <Text style={{ paddingVertical: 10, fontFamily: fonts.bold, color: 'black', fontSize: 14 }}>Email</Text>
                       <Input backgroundColor="white" />
 
                   </View>
@@ -81,7 +81,7 @@ const ContactUs = () => {
 
                   <View style={{ width: '100%', paddingHorizontal: 20, marginTop: 20 }}>
 
-                      <Text style={{ paddingVertical: 10, fontFamily: fonts.regular, color: 'black', fontSize: 14 }}>Subject</Text>
+                      <Text style={{ paddingVertical: 10, fontFamily: fonts.bold, color: 'black', fontSize: 14 }}>Subject</Text>
                       <Input backgroundColor="white" />
 
                   </View>
@@ -89,7 +89,7 @@ const ContactUs = () => {
 
                   <View style={{ width: '100%', paddingHorizontal: 20, marginTop: 20, }}>
 
-                      <Text style={{ paddingVertical: 10, fontFamily: fonts.regular, color: 'black', fontSize: 14 }}>Content</Text>
+                      <Text style={{ paddingVertical: 10, fontFamily: fonts.bold, color: 'black', fontSize: 14 }}>Content</Text>
                       <Input  backgroundColor="white" height="335" width="100%" />
 
                   </View>
@@ -110,6 +110,7 @@ const ContactUs = () => {
 const styles = StyleSheet.create({
     mainView: {
         flex: 1, 
+        backgroundColor:'white'
        
     }
 

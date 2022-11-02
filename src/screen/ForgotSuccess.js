@@ -1,12 +1,14 @@
-import { ScrollView, StyleSheet, Pressable, View, Text } from "react-native";
+import { ScrollView, StyleSheet, Pressable, View, Text, TouchableOpacity } from "react-native";
 import React from "react";
 import SVGICON from "../theme/SVGICON";
 import ColorsTheme from "../theme/ColorsTheme";
 import fonts from "../theme/fonts";
 import { Input } from "native-base";
 import Button from "../component/Button";
+import { useNavigation } from "@react-navigation/native";
 
 function ForgotSuccess(props) {
+  const navigation = useNavigation()
   return (
     <ScrollView
       style={{ flex: 1, padding: 10, backgroundColor: "white" }}
@@ -24,12 +26,18 @@ function ForgotSuccess(props) {
         in your email to reset your password.
       </Text>
 
-    
-      <Button title={'Back to Login'}
+      <View style={{ width: '100%', marginTop: 49, justifyContent: 'center', alignItems: 'center' }}>
+        <TouchableOpacity onPress={() => navigation.navigate("ResetPersonalAccount")} style={{ justifyContent: 'center', alignItems: 'center', backgroundColor: '#2662b0', height: 40, width: 280, borderRadius: 10 }}>
+          <Text style={{ color: 'white' }}>Back to Login</Text>
+        </TouchableOpacity>
+
+      </View>
+      {/* <Button title={'Back to Login'}
       onPress={() => {
-        props.navigation.popToTop()
+        // props.navigation.popToTop()
+        navigation.navigate("ResetPersonalAccount")
       }}
-      />
+      /> */}
     </ScrollView>
   );
 }

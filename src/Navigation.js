@@ -60,6 +60,14 @@ import CreateDirector from "./screen/CreateDirector";
 import EditDirector from "./screen/EditDirector";
 import CompletedPage from "./screen/CompletedPage";
 import AddSwitchCompany from "./screen/AddSwitchCompany";
+import AddSwitchOne from "./screen/AddSwitchOne";
+import AddSwitchTwo from "./screen/AddSwitchTwo";
+import AddSwitchThree from "./screen/AddSwitchThree";
+import AddSwitchFour from "./screen/AddSwitchFour";
+import ResetPersonalAccount from "./screen/ResetPersonalAccount";
+import ResetPersonalAccountOne from "./screen/ResetPersonalAccountOne";
+import ResetPersonalAccountTwo from "./screen/ResetPersonalAccountTwo";
+import ResetPersonalAccountThree from "./screen/ResetPersonalAccountThree";
 
 
 
@@ -180,6 +188,14 @@ export default function Navigation() {
             <Stack.Screen name="EditDirector" component={EditDirector} />
             <Stack.Screen name="CompletedPage" component={CompletedPage} />
             <Stack.Screen name="AddSwitchCompany" component={AddSwitchCompany} />
+            <Stack.Screen name="AddSwitchOne" component={AddSwitchOne} />
+            <Stack.Screen name="AddSwitchTwo" component={AddSwitchTwo} />
+            <Stack.Screen name="AddSwitchThree" component={AddSwitchThree} />
+            <Stack.Screen name="AddSwitchFour" component={AddSwitchFour} />
+            <Stack.Screen name="ResetPersonalAccount" component={ResetPersonalAccount} />
+            <Stack.Screen name="ResetPersonalAccountOne" component={ResetPersonalAccountOne} />
+            <Stack.Screen name="ResetPersonalAccountTwo" component={ResetPersonalAccountTwo} />
+            <Stack.Screen name="ResetPersonalAccountThree" component={ResetPersonalAccountThree} />
 
             
 

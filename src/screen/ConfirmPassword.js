@@ -18,7 +18,7 @@ const ConfirmPassword = () => {
           
           <View style={{justifyContent:'center', alignItems:'center', marginTop:59}}>
               <Text style={{fontSize:16, fontFamily:fonts.bold, color:'black'}}>
-                  Reset Your Personal Account's Password
+                  Reset Your Corporate Account's Password
               </Text>
               <Text style={{fontSize:fonts.regular, fontSize:16, color:'black', paddingTop:20}}>
                   Enter your new password below

@@ -75,7 +75,7 @@ const CompletedPage = () => {
                 </View>
 
                 <View style={{width:'100%', justifyContent:'center', alignItems:'center', marginTop:91}}>
-                    <TouchableOpacity style={{backgroundColor:'#2662b0', width:335, height:45, justifyContent:'center', alignItems:'center', borderRadius:5}}>
+                    <TouchableOpacity onPress={()=> {navigation.navigate("SetupCompanyProfile")}} style={{backgroundColor:'#2662b0', width:335, height:45, justifyContent:'center', alignItems:'center', borderRadius:5}}>
                         <Text style={{fontSize:16, fontFamily:fonts.semibold, color:'white'}}>
                             Back To Home
                         </Text>
